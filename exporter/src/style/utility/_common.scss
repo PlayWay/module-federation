@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, Verdana;
+  font-size: 9pt;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.header {
+  font-family: Arial, Verdana;
+  font-size: 10pt;
+  font-weight: bold;
+  text-align: center;
+  background-color:$main-blue;
+  max-height: 20px;
+  height: 20px;
+  color: white;
+  padding: 2px;
+  border-top: 1px solid white;
+  cursor: pointer;
+}
+
+.rich-table {
+  padding: 0;
+  border-collapse: collapse;
+  empty-cells: show;
+}
+
+.rich-table-cell {
+  padding: 2px;
+  border: 1px solid #999999;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.hover-rich-table-cell {
+  transition: background-color .3s ease;
+  background-color: #fff;
+}
+
+.hover-rich-table-cell:hover {
+  background-color:$light-grey;
+}
+
+.hover-rich-table-cell.active {
+  background-color: #19ff002b;
+}
+
+
+
+

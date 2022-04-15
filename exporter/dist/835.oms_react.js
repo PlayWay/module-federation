@@ -1,0 +1,1 @@
+(self.webpackChunkexporter=self.webpackChunkexporter||[]).push([[835],{6835:(e,r,d)=>{"use strict";d.r(r),d.d(r,{initStore:()=>s});var o=d(3513),t=d.n(o),c=d(7562);const s=({reducer:e={},middleware:r=[],...d})=>(0,c.configureStore)({reducer:e,middleware:[t(),...r],devTools:!1,...d})}}]);

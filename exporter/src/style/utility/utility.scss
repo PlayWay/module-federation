@@ -1,0 +1,140 @@
+
+
+.button-empty {
+  font-weight: inherit;
+  font-size: inherit;
+  border: none;
+  padding: 0;
+  outline: none;
+  background-color: inherit;
+}
+
+.text {
+  &-red {color:red;}
+  &-green {color:green;}
+  &-blue {color:blue;}
+  &-black {color:black;}
+
+  &-center {text-align: center;}
+  &-left {text-align: left;}
+  &-right {text-align: right;}
+  &-underline {text-decoration: underline;}
+}
+
+.m {
+  &-1 {margin: $spacer * .25;}
+  &-2 {margin: $spacer * .5;}
+  &-3 {margin: $spacer;}
+  &-4 {margin: $spacer * 1.5;}
+  &-5 {margin: $spacer * 3;}
+}
+
+.mx {
+  &-1 {margin: 0 $spacer * .25;}
+  &-2 {margin: 0 $spacer * .5;}
+  &-3 {margin: 0 $spacer;}
+  &-4 {margin: 0 $spacer * 1.5;}
+  &-5 {margin: 0 $spacer * 3;}
+}
+
+.my {
+  &-1 {margin:$spacer * .25 0;}
+  &-2 {margin:$spacer * .5 0;}
+  &-3 {margin:$spacer 0;}
+  &-4 {margin:$spacer * 1.5 0;}
+  &-5 {margin:$spacer * 3 0;}
+}
+
+.mt {
+  &-1 {margin-top: $spacer * .25;}
+  &-2 {margin-top: $spacer * .5;}
+  &-3 {margin-top: $spacer;}
+  &-4 {margin-top: $spacer * 1.5;}
+  &-5 {margin-top: $spacer * 3;}
+}
+
+.mb {
+  &-1 {margin-bottom: $spacer * .25;}
+  &-2 {margin-bottom: $spacer * .5;}
+  &-3 {margin-bottom: $spacer;}
+  &-4 {margin-bottom: $spacer * 1.5;}
+  &-5 {margin-bottom: $spacer * 3;}
+}
+
+.mr {
+  &-1 {margin-right: $spacer * .25;}
+  &-2 {margin-right: $spacer * .5;}
+  &-3 {margin-right: $spacer;}
+  &-4 {margin-right: $spacer * 1.5;}
+  &-5 {margin-right: $spacer * 3;}
+}
+
+.ml {
+  &-1 {margin-left: $spacer * .25;}
+  &-2 {margin-left: $spacer * .5;}
+  &-3 {margin-left: $spacer;}
+  &-4 {margin-left: $spacer * 1.5;}
+  &-5 {margin-left: $spacer * 3;}
+}
+
+.p {
+  &-1 {padding: $spacer * .25;}
+  &-2 {padding: $spacer * .5;}
+  &-3 {padding: $spacer;}
+  &-4 {padding: $spacer * 1.5;}
+  &-5 {padding: $spacer * 3;}
+}
+
+.px {
+  &-1 {padding: 0 $spacer * .25;}
+  &-2 {padding: 0 $spacer * .5;}
+  &-3 {padding: 0 $spacer;}
+  &-4 {padding: 0 $spacer * 1.5;}
+  &-5 {padding: 0 $spacer * 3;}
+}
+
+.py {
+  &-1 {padding:$spacer * .25 0;}
+  &-2 {padding:$spacer * .5 0;}
+  &-3 {padding:$spacer 0;}
+  &-4 {padding:$spacer * 1.5 0;}
+  &-5 {padding:$spacer * 3 0;}
+}
+
+.pt {
+  &-1 {padding-top: $spacer * .25;}
+  &-2 {padding-top: $spacer * .5;}
+  &-3 {padding-top: $spacer;}
+  &-4 {padding-top: $spacer * 1.5;}
+  &-5 {padding-top: $spacer * 3;}
+}
+
+.pb {
+  &-1 {padding-bottom: $spacer * .25;}
+  &-2 {padding-bottom: $spacer * .5;}
+  &-3 {padding-bottom: $spacer;}
+  &-4 {padding-bottom: $spacer * 1.5;}
+  &-5 {padding-bottom: $spacer * 3;}
+}
+
+.pr {
+  &-1 {padding-right: $spacer * .25;}
+  &-2 {padding-right: $spacer * .5;}
+  &-3 {padding-right: $spacer;}
+  &-4 {padding-right: $spacer * 1.5;}
+  &-5 {padding-right: $spacer * 3;}
+}
+
+.pl {
+  &-1 {padding-left: $spacer * .25;}
+  &-2 {padding-left: $spacer * .5;}
+  &-3 {padding-left: $spacer;}
+  &-4 {padding-left: $spacer * 1.5;}
+  &-5 {padding-left: $spacer * 3;}
+}
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+//utility
+$spacer: 10px;
+//colors
+$black: #1F1F1F;
+$orange: #F7931E;
+$red: #ff0000;
+$light-red: #ff000052;
+$light-grey: #f0f0f0;
+$main-blue: #1c94c1;
+$grey: #cccccc;
+$border-grey: #999999;
+
+@function toRem($size) {
+  $remSize: $size / 12 + rem;
+  @return #{$remSize};
+}
